@@ -1,0 +1,163 @@
+,,,,,
+Dialogue ID,15191,,,,
+Patient,Doctor,Symptom,Intent Type,Image Information,Severity
+"Doctor, I have been having a problem with my eye for two days. Please check it, $S5_3_14.jpg$.  Let me know what is wrong?","I see there is slight redness under the lower eyelid. Let me investigate its cause first so I can help you in the best way possible. Tell me, have you got a Mass on eyelid?",O O O O O O O O O O O O O O O O O O O B-Symptom O O O O O O O O,Symptom,Eye Redness,Mild
+"True, mass is present on my right upper eyelid and hinders my vision.",I can understand mass on the upper eyelid creates a hindrance to vision. Let me know whether you are suffering from Swollen eye.,O O O O O O O O O O O O O O O O,Affirmative,,
+"Exactly, I have got Swollen eye.",Is your Eyelid swelling?,O O O O O B-Symptom I-Symptom O,Symptom,,
+"Literally, I am struggling with Eyelid swelling.",Have you got Eyelid lesion or rash?,O O O O  O O B-Symptom I-Symptom  O,Symptom,,
+"So true, I have got Eyelid lesion or rash.",Have you felt Itchiness of eye?,O O O O O O B-Symptom I-Symptom I-Symptom I-Symptom O,Symptom,,
+"Yes, l am sick of rubbing the eye. Still, the itching sensation doesn't go away.","Per the symptoms analysis, you might have Chalazion.",O O O O O O O O O O O O O O O O O O O O,Affirmative,,
+"Disease: Chalazion, Group: 7",,,,,
+,,,,,
+,,,,,
+Dialogue ID,13025,,,,
+Patient,Doctor,Symptom,Intent Type,Image Information,Severity
+"Doctor, I feel stuffy sensation in the ear. Consequently, have experienced Diminished hearing. I sometimes misinterpret what others are saying. Would you please tell me its cause?","Sure, I am here to help you. Miscommunication is normal in hearing loss condition. Let me investigate further symptoms of it. First, tell me, do you got Ear pain?
+",O O O O O O O O O O O O O O B-Symptom I-Symptom O O O O O O O O O O O O O O O O O O,Symptom,,
+"Indeed, doctor.","Have you got Redness in ear? Please, show me your ear.",O O O O,Affirmative,,
+"Here, please check $S22_3_6.jpg$.","I see. There is slight redness. Also, have you got Ringing in ear?",O O O O B-Symptom O,Symptom,Redness in ear,Mild
+"For sure, I am struggling with it. ",I can understand your concern. Are you also dealing with Difficulty speaking?,O O O O O O O O O,Affirmative,,
+"Yes, I have got Difficulty speaking.",Your symptoms indicate that you have Conductive hearing loss problem.,O O O O O B-Symptom I-Symptom O,Symptom,,
+"Disease: Conductive hearing loss, Group: 7",,,,,
+,,,,,
+,,,,,
+Dialogue ID,15276,,,,
+Patient,Doctor,Symptom,Intent Type,Image Information,Severity
+"Hello doctor, my child is dealing with Itching of skin. Please, let me know what its cause could be.","Alright, is your child suffering from Diarrhea too?",O O O O O O O O B-Symptom I-Symptom I-Symptom O O O O O O O O O O O O,Symptom,,
+"Literally, he is ill with it.",Oh! Please make sure he remains hydrated. Have you seen Skin rash around his buttocks area?,O O O O O O O O,Affirmative,,
+"Yes, his buttocks are full of Skin rash. He can't even sleep at night because of it and tries to rub rashes. I feel really bad for my child.",No doubt you are worried for your child. I understand that as I also have a baby girl. Rashes are troublesome for a child especially when they itche a lot. Have you observed Irritable infant?,O O O O O O O B-Symptom I-Symptom O O O O O O O O O O O O O O O O O O O O O O O O,Symptom,,
+"True, doctor. Nowadays, he cries a lot. ","Then, based on child symptoms, he might have Diaper rash.",O O O O O O O O O O O,Affirmative,,
+"Disease: Diaper rash, Group: 12",,,,,
+,,,,,
+,,,,,
+Dialogue ID,16364,,,,
+Patient,Doctor,Symptom,Intent Type,Image Information,Severity
+"Hi doctor, my skin around the lips is getting abnormal day by day. Please check it, $S31_1_27.jpg$. What could be the reason behind it?","I can see the skin around your lips is not in a good state. Please, let me investigate further to know its root cause. So, Are you also dealing with Abnormal appearing skin?",O O O O O O O O O O O O O O O O O O O B-Symptom O O O O O O O O O ,Symptom,Skin rash,Severe
+"Indeed, I have got Abnormal appearing skin.","Have you got Skin dryness, peeling, scaliness, or roughness?",O O O O O B-Symptom I-Symptom I-Symptom O,Symptom,,
+"Not sure whether this is same condition as mine. Please have a look at it, $S11_1_13.jpg$.","Oh! that looks severe. It might be because you stay outside when the sun is at its peak. Please, avoid sun exposure as much as possible. Let me know. Do you have Skin moles too?",O O O O O O O O O O O B-Symptom O,Symptom,"Skin dryness, peeling, scaliness, or roughness",Severe
+"True, I have got them. ","Fine, your symptoms indicate that you might have Actinic keratosis.",O O O O O O O,Affirmative,,
+"Disease: Actinic keratosis, Group: 12",,,,,
+,,,,,
+,,,,,
+Dialogue ID,17308,,,,
+Patient,Doctor,Symptom,Intent Type,Image Information,Severity
+"Hi doctor, I am dealing with Pain or soreness of breast. It has gotten to a point where I can't do any work properly. Please help me. ",I wish you didn't have to go through all that. Let me do the symptom investigation first for a better understanding of your issues. Do you have Pain in eye?,O O O O O O O B-Symptom I-Symptom I-Symptom I-Symptom I-Symptom O O O O O O O O O O O O O O O O O O O ,Symptom,,
+"Yes, I have got Pain in eye.",Are you also dealing with Shoulder cramps or spasms?,O O O O O B-Symptom I-Symptom I-Symptom O,Symptom,,
+"Nowadays, I have felt Shoulder cramps or spasms.",Have you got Facial pain?,O O O O O B-Symptom I-Symptom I-Symptom I-Symptom O,Symptom,,
+"Sometimes, I have Facial pain too.","Ok, you have Ankle pain?",O O O O B-Symptom I-Symptom O O,Symptom,,
+"Yes, I am suffering from Ankle pain.",Are you experiencing Pain during pregnancy?,O O O O O O B-Symptom I-Symptom O,Symptom,,
+I am pregnant and dealing with Pain during pregnancy. I am agonized by all this pain that I am enduring.,That sounds frustrating. Do you have issues like Excessive anger?,O O O O O O B-Symptom I-Symptom I-Symptom O O O O O O O O O O O O O I,Symptom,,
+"Yes, more often.","Alright, have you got the Joint stiffness or tightness?",O O O O O,Affirmative,,
+Exactly doctor. I am having problem in extending the hand to grasp items.,I agree with you; grasping an object might be difficult for you with that hand. Have you got Knee lump or mass problem?,O O O O O O O O O O O O O O O ,Affirmative,,
+"Right, I have got Knee lump or mass, and as a result, I can't walk properly. Even I am facing trouble in standing up due to imbalance. This condition has made my life a total mess. I want to get rid of it as soon as possible.","Oh! that sounds terrible. Knee lumps really are burdensome. I wish you didn't have to go through that hassle. Several treatments are available for knee lumps, so you will get well soon. Let's proceed with further questions. Do you feel Fatigue more often?",O O O O O B-Symptom I-Symptom I-Symptom I-Symptom O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O ,Symptom,,
+"True, I do. I always feel tired and less energized.","I can understand that. You for sure have been getting tired while doing simple chores. Tell me, are you suffering from Excessive urination at night?",O O O O O O O O O O O O O ,Affirmative,,
+"Literally, I am dealing with Excessive urination at night too.","Alright, your symptoms signify that you have got Air embolism.",O O O O O B-Symptom I-Symptom I-Symptom I-Symptom O O,Symptom,,
+"Disease: Air Embolism, Group: 19",,,,,
+,,,,,
+,,,,,
+Dialogue ID,27790,,,,
+Patient,Doctor,Symptom,Intent Type,Image Information,Severity
+"Hello doctor, I am dealing with Abnormal appearing skin. I am unable to go out with my friends because of this.","I know what you might be feeling. At one time, I was also concerned about what others might think when I got the infection. So, do not worry about it. Let me know, do you have Skin rash?",O O O O O O O B-Symptom I-Symptom I-Symptom O O O O O O O O O O O O O O,Symptom,,
+"Maybe see, $S31_1_6.jpg$.",Are you also dealing with Allergic reaction?,O O O B-Symptom O,Symptom,Skin rash,Severe
+"Indeed, I am.",Do you feel Dizziness these days?,O O O O O,Affirmative,,
+"Yes, I have got Dizziness too.",Have you got Lip swelling?,O O O O O B-Symptom O,Symptom,,
+"Don't know, please have a look at it, $S51_3_12.jpg$.","Yeah, your lower lip is slightly swelled up. It seems like you have got some allergic problem. Please answer, are you also suffering from Headache too?",O O O O O O O O O O B-Symptom O,Symptom,Lip swelling,Mild
+"You are right, doctor.",You might be suffering from Drug reaction.,O O O O O O,Affirmative,,
+"Disease: Drug reaction, Group: 19",,,,,
+,,,,,
+Dialogue ID,12948,,,,
+Patient,Doctor,Symptom,Intent Type,Image Information,Severity
+"Doctor, I have got Skin rash. Please, let me know its cause. My exam is right around the corner. I would like to get it treated as soon as possible.",I understand how worrying it must be to you. Have you got Neck swelling?,O O O O O B-Symptom I-Symptom O O O O O O O O O O O O O O O O O O O O O O O O O O O O O,Symptom,,
+"Please have a look at it, $S159_1_9.jpg$.",Let me check. It looks severe. Have you tried a warm compress? It will help reduce the bulge. Do you have Skin swelling?,O O O O O O B-Symptom O,Symptom,Neck swelling,Severe
+I do have Skin swelling problem.,Are you also dealing with Loss of sensation?,O O O B-Symptom I-Symptom O O,Symptom,,
+"Indeed, doctor.","OK, have you got Arm swelling too?",O O O O,Affirmative,,
+"Literally, I am suffering from Arm swelling.",Have you got Skin lesion?,O O O O O O B-Symptom I-Symptom O,Symptom,,
+"So true, doctor.",Do you have Swollen eye? ,O O O O O,Affirmative,,
+"Yes, I have been suffering from Swollen eye.",Have you got Arm or lump mass?,O O O O O O O B-Symptom I-Symptom O,Symptom,,
+"So true, doctor.",I think you have Cat scratch disease.,O O O O O,Affirmative,,
+"Disease: Cat scratch disease, Group: 1",,,,,
+,,,,,
+Dialogue ID,18049,,,,
+Patient,Doctor,Symptom,Intent Type,Image Information,Severity
+"Hi doctor, I have got Loss of sensation. It is all of a sudden. I feel it is happening imperceptibly. What might be the cause?","Oh! that is not a good sign as this can lead to danger situation in future. Please cooperate and let me dig into deeper its cause.  Tell me, have you observe Disturbance of memory?",O O O O O O B-Symptom I-Symptom I-Symptom O O O O O O O O O O O O O O O O O O O O O,Symptom,,
+"True, I am suffering from it.",Are you dealing with Depressive or psychotic symptoms?,O O O O O O O,Affirmative,,
+"For a few days, I hear weird noises. I intensely feel like I am worthless as I have failed the entrance exam in my fifth attempt as well. Please help. 
+","I am getting your condition. Please understand failure is a part of success. So, no need to worry. Everyone feels terrible when they fail. However, I suggest you do not lose hope. You have other options as well, and you can try something else. Have you got Paresthesia?",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O,Affirmative,,
+"Yes, doctor.",Are you suffering from Lip swelling? Please show your lips.,O O O O,Affirmative,,
+ Please check $S51_2_1.jpg$.,"OK, have you got Itchy eyelid?",O O B-Symptom O,Symptom,Lip swelling,Moderate
+"I am not sure about it. Please have a look at my eye,  $S37_1_1.jpg$.",Have you got Elbow weakness?,O O O O O O O O O O O O O O O B-Symptom O,Symptom,Itchy eyelid,Severe
+"Right, I have got Elbow weakness.",I think you might have Factitious disorder.,O O O O O B-Symptom I-Symptom O,Symptom,,
+"Disease: Factitious disorder, Group: 5",,,,,
+,,,,,
+Dialogue ID,25428,,,,
+Patient,Doctor,Symptom,Intent Type,Image Information,Severity
+"Hello doctor, I see Spots or clouds in vision. Also, I am having very watery eyes. What is the cause for this doctor? I have to be treated before my exam dates are out.","OK, I can get your problem. It will be difficult for you to pass an exam if your eyes are not fine. You said you are having watery eyes; then you have got Lacrimation, right?",O O O O O B-Symptom I-Symptom I-Symptom I-Symptom I-Symptom O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O,Symptom,,
+"Right, I am sickened with Lacrimation.",Do you have Pain in eye?,O O O O O O B-Symptom O,Symptom,,
+"You ae right, doctor.",Have you suffered from Abnormal movement of eyelid?,O O O O O O,Affirmative,,
+"Indeed, I have trouble with Abnormal movement of eyelid.",Have you got Eyelid lesion or rash?,O O O O O O B-Symptom I-Symptom I-Symptom I-Symptom O,Symptom,,
+"I am not confident, see it $S74_1_1.jpg$.",Have you felt Foreign body sensation in eye?,O O O O O O O B-Symptom O,Symptom,Eyelid lesion or rash,Severe
+That is right.,Have you got Swollen eye?,O O O O,Affirmative,,
+"Don't know, see $S1_3_1.jpg$.",Do you feel Itchiness of eye?,O O O B-Symptom O,Symptom,Swollen eye,Mild
+"Yes, doctor.",Your symptoms suggest that you have been suffering from Ectropion.,O O O O,Affirmative,,
+"Disease: Ectropion, Group: 7",,,,,
+,,,,,
+Dialogue ID,9242,,,,
+Patient,Doctor,Symptom,Intent Type,Image Information,Severity
+"Doctor, I am facing Coryza. I am really concerned about my health condition. Please help me.","I am here to help you out. So, please tell me, do you have Skin rash?",O O O O O B-Symptom O O O O O O O O O O O O O,Symptom,,
+I am not sure. Please check $S31_1_15.jpg$.,"Alright, do you have Fever?",O O O O O O O B-Symptom O,Symptom,Skin rash,Severe
+Yes I am having Fever.,"Ok, let me see. Do you have Itching of skin?",O O O O B-Symptom,Symptom,,
+"I am suffering from Itching of skin. I am sick of scratching the skin as, most of the time, I feel an irritating sensation. How to cure this doctor?","I understand the itching sensation is irksome. Even I feel the same urge to scratch when I suffer from it. However, please avoid scratching the skin it could make the condition worse. Let me go through symptom analysis to find its cause.  Please tell, are you having Skin lesion?",O O O O B-Symptom I-Symptom I-Symptom O O O O O O O O O O O O O O O O O O O O O O O O O O O ,Symptom,,
+Right doctor.,"Alright, do you have Vomiting?",O O O,Affirmative,,
+I have got Vomiting issue.,Oh! And have you got Mouth ulcer?,O O O B-Symptom O O,Symptom,,
+I am not sure of it. Please check $S108_3_1.jpg$.,Let me see. Do you have Fluid retention?,O O O O O O O O O B-Symptom O,Symptom,Mouth ulcer,Mild
+"You are totally right, doctor.",Based on your symptoms you have Erythema multiforme.,O O O O O O O,Affirmative,,
+"Disease: Erythema multiforme, Group: 12",,,,,
+,,,,,
+Dialogue ID,18054,,,,
+Patient,Doctor,Symptom,Intent Type,Image Information,Severity
+"Doctor, I have been suffering from Wrist swelling for the past four days. Becuase of it, I am not able to get adequate sleep. I often wake up in the middle of the night as I feel my wrist joint is on fire. It is intolerable. What should I do to deal with it? Please help.
+","It sounds like you are in a lot of pain there. Working with that hand must have been hard for you. I can understand that. Let me investigate further symptoms to identify the wrist swelling causes. So, tell me have you felt Foot or toe pain?","O O O O O O O B-Symptom I-Symptom O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+",Symptom,,
+"So true, I have trouble with it.",Are you also suffering from Foot or toe swelling?,O O O O O O O O O,Affirmative,,
+"I don't know, see $S50_1_31.jpg$. ","I see foot inflammation is severe. You must be dealing with walking and standing issues. Tell me, do you have Ankle pain too?",O O O O O B-Symptom O,Symptom,Foot or toe swelling,Severe
+"Indeed, I am suffering from it.",I think you have Gout.,O O O O O O O O O,Affirmative,,
+"Disease; Gout, Group: 13",,,,,
+,,,,,
+Dialogue ID,12772,,,,
+Patient,Doctor,Symptom,Intent Type,Image Information,Severity
+"Doctor, I am suffering from Hand or finger pain. I am unable to study or work on my laptop.","OK, are you also dealing with Knee pain?",O O O O O O B-Symptom I-Symptom I-Symptom I-Symptom O O O O O O O O O O O O,Symptom,,
+"Indeed, I have got Knee pain. And, I have my final rugby match scheduled on 15th of this month. I need to treat it as soon as possible.",Oh! that's sad to hear. I hope you will get well before that. And do you have Leg pain?,O O O O O B-Symptom I-Symptom O O O O O O O O O O O O O O O O O O O O O O O O O O,Symptom,,
+"You are right, doctor.",Have you got Hand or finger lump or mass?,O O O O O O,Affirmative,,
+"I am not confirmed, check it out $S39_3_1.jpg$.",Do you have Wrist swelling?,O O O O O O O O B-Symptom O,Symptom,Hand or finger lump or mass,Mild
+"Yes, I have got swelling in my wrist.",You are having symptoms of Ganglion cyst.,O O O O O O O O O O,Affirmative,,
+"Disease: Ganglion cyst, Group: 13",,,,,
+,,,,,
+Dialogue ID,18447,,,,
+Patient,Doctor,Symptom,Intent Type,Image Information,Severity
+"Doctor, I have been suffering from Skin dryness, peeling, scaliness, or roughness on my neck and chest area.","OK. Skin dryness can sometimes cause skin hardening, which can lead to pain. Use a good moisturizer on dry areas. This will prevent dryness. Let me investigate further symptoms to get an idea about your situation. So, have you got Abnormal appearing skin?
+",O O O O O O O B-Symptom I-Symptom I-Symptom I-Symptom I-Symptom I-Symptom I-Symptom I-Symptom I-Symptom O O O O O O O,Symptom,,
+"That is true. I have got Abnormal appearing skin on my ncek and back area. Nowadays, I cover my neck with a scarf to hide it. I am highly concerned about it. ","I understand your concern. Your symptoms are indicating sign of sun sensitivity. To rule out other causes, let me know have you got Skin rash?",O O O O O O O B-Symptom I-Symptom I-Symptom O O O O O O O O O O O O O O O O O O O O O O O O O O O,Symptom,,
+Yes I have that.,Do you have Skin moles issue?,O O O O O,Affirmative,,
+I do have Skin moles on my hands.,"Let me check, have you seen any sign of Skin growth on your body?",O O O B-Symptom I-Symptom O O O O,Symptom,,
+"Please see $S4_3_24.jpg$. 
+","I see. Based on your symptoms analysis, you have Dermatitis due to sun exposure.",O O B-Symptom O,Symptom,Skin growth,Mild
+"Disease: Dermatitis due to sun exposure, Group: 12",,,,,
+,,,,,
+Dialogue ID,28436,,,,
+Patient,Doctor,Symptom,Intent Type,Image Information,Severity
+"Hi doctor, my baby boy is showing Irritable infant symptoms. Please, let me know what its cause could be.",Sure. Let me proceed with the further investigation. Have you seen Skin rash on his body?,O O O O O O O O B-Symptom I-Symptom O O O O O O O O O O O O O ,Symptom,,
+"Please look at it, $S31_1_12.jpg$.",Does he have Itching of skin?,O O O O O B-Symptom O,Symptom,Skin rash,Severe
+"True, doctor. He cries a lot because of the Itching of skin and tries to rub it. He remains irritated because of it. Please help. I can no longer see my child in this much distress.","Please, do not tense yourself. I encountered similar issues when my children were infants, so I understand what you might be feeling. Let me proceed with the investigation so I can help in the best possible way. Does he felt Ache all over?",,Affirmative,,
+"Yes, it seems to be the case.",Is he dealing with Skin lesion?,O O O O O O O O O,Affirmative,,
+"Indeed, Skin lesion issue is there too.","Per symptoms, I think your child have been suffering from Chickenpox.",O O B-Symptom I-Symptom O O O O O,Symptom,,
+"Disease: Chickenpox, Group: 1",,,,,
+,,,,,
+Dialogue ID,15386,,,,
+Patient,Doctor,Symptom,Intent Type,Image Information,Severity
+"Good morning doctor, I have Pain in eye. What is wrong with me? I am losing my vision. I fear whether I will lose my vision completely. I have heard of it. ","I understand your concern. It is quite natural to think so. But no need to panic. Let me know, have you got Diminished vision?",O O O O O O B-Symptom I-Symptom I-Symptom O O O O O O O O O O O O O O O O O O O O O O O O O O O O O,Symptom, ,
+"True, I have been suffering from Diminished vision.",Show me your eyes. You have got Eye redness.,O O O O O O O B-Symptom I-Symptom O,Symptom,,
+I am not sure please see $S5_2_3.jpg$.,"I see, there is redness in your eye. Do you have Symptoms of eye?",O O O O O O B-Symptom O,Symptom,Eye redness,Moderate
+It seems to be.,Are you also dealing with White discharge from eye?,O O O O O,Affirmative,,
+"Yes, I am suffering from teary eye. ","That must be troublesome then. It might have been creating a hindrance in your vision. And, have you got Swollen eye?",O O O O O O O O O,Affirmative,,
+I don't know please look $S1_1_1.jpg$.,"I can see that it is severe. You must have been having difficulty in opening your eye perfectly. After examining all your symptoms, you seem to be suffering from Corneal disorder.",O O O O O B-Symptom O,Symptom,Swollen eye,Severe
+"Disease: Corneal disorder, Group: 7",,,,,

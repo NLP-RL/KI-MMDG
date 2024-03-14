@@ -1,0 +1,8 @@
+tensorflow==2.8.2<br>
+tensorflow-text==2.6.0<br>
+spacy==3.4.1<br>
+tensorflow-hub== 0.12.0<br>
+transformers==2.9.0<br>
+torch==1.12.1<br>
+simpletransformers==0.63.7<br>
+tensorflow-hub==0.12.0
