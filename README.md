@@ -36,24 +36,16 @@ We provide the ES-MMD Dataset for research and academic purposes. To request acc
 
 ## How to Access the Dataset
 
-1. **Fill Out the Request Form**: To access the ES-MMD Dataset, you need to submit a request through our [Google Form](<Google Form Link>). Please provide the following information:
-    - Your full name
-    - Your email address
-    - Your institution/affiliation
-    - A brief description of your intended use for the dataset
-    - Agreement to our terms and conditions
+1. **Fill Out the Request Form**: To access the ES-MMD Dataset, you need to submit a request through our [Google Form](https://forms.gle/C5q7jDprPGsCuYcD6).
 
 2. **Review and Approval**: After submitting the form, your request will be reviewed. If approved, you will receive an email with a link to download the dataset.
 
 3. **Terms of Use**: By requesting access, you agree to:
-    - Use the dataset solely for non-commercial research and academic purposes.
-    - Not redistribute the dataset.
-    - Cite our paper if you use the dataset in your research.
+    - Use the dataset solely for non-commercial, educational, and research purposes.
+    - Not use the dataset for any commercial activities.
+    - Attribute the creators of this resource in any works (publications, presentations, or other public dissemination) utilizing the dataset.
+    - Not disseminate the dataset without prior permission from the appropriate authorities.
 
-## Important Links
-
-- [Request Access to the Dataset](<Google Form Link>)
-- [Paper Link](https://github.com/NLP-RL/KI-MMDG) (for citation details)
 
 # Citation
 If you find this code useful in your research, please consider citing:
