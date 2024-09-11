@@ -1,6 +1,6 @@
 # Seeing Is Believing! towards Knowledge-Infused Multi-modal Medical Dialogue Generation (LREC-COLING 2024)
 [PDF](https://aclanthology.org/2024.lrec-main.1264.pdf)
-### Please create a new environment for the dependencies using the following command:
+### Install the dependencies
 
 	conda create --name <env_name> --file requirements.txt
 
