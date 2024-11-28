@@ -1,15 +1,15 @@
 # Seeing Is Believing! towards Knowledge-Infused Multi-modal Medical Dialogue Generation (LREC-COLING 2024)
-[PDF](https://aclanthology.org/2024.lrec-main.1264.pdf)
-
-
-![Working](https://github.com/sbera7/KI-MMDG/blob/main/KI-MMDG_f-1.png)
-
 
 This repository contains the official code and dataset for the paper "Knowledge-Infused Multi-Modal Medical Dialogue Generation (KI-MMDG)" which explores the integration of visual cues and medical knowledge in telemedicine for automatic disease diagnosis.
 
 
 # Abstract
 Over the last few years, artificial intelligence-based clinical assistance has gained immense popularity and demand in telemedicine, including automatic disease diagnosis. Patients often describe their signs and symptoms to doctors using visual aids, which provide vital evidence for identifying a medical condition. In addition to learning from our experiences, we learn from well established theories/ knowledge. With the motivation of leveraging visual cues and medical knowledge, we propose a transformer-based, knowledge-infused multi-modal medical dialogue generation (KI-MMDG) framework. In addition, we present a discourse-aware image identifier (DII) that recognizes signs and their severity by leveraging the current conversation context in addition to the image of the signs. We first curate an empathy and severity-aware multi-modal medical dialogue (ES-MMD) corpus in English, which is annotated with intent, symptoms, and visual signs with severity information. Experimental results show the superior performance of the proposed KI-MMDG model over uni-modal and non-knowledge infused generative models, demonstrating the importance of visual signs and knowledge infusion in symptom investigation and diagnosis. We also observed that the DII model surpasses the existing state-of-the-art model by 7.84%, indicating the crucial significance of dialogue context for identifying a sign image surfaced during conversations.
+
+![Working](https://github.com/NLP-RL/KI-MMDG/blob/main/VisualAbstract.png)
+
+### Full Paper: https://aclanthology.org/2024.lrec-main.1264.pdf 
+### Presentation: https://youtu.be/dmIZ4GtdWao
 
 # Install the dependencies
 ```
